@@ -1,0 +1,61 @@
+{
+  "umbral": 0.35,
+  "rechazo": "🤖 ¿En qué más puedo ayudarte?",
+  "vacio": "¡Escríbeme tu duda y te ayudo! 😊",
+  "intents": {
+    "saludo": {
+      "respuesta": "¡Hola! 👋 Soy el asistente inteligente de KAYRO STUDIO. Pregúntame lo que sea o cómo usar la app.",
+      "patrones": [
+        "hola",
+        "holi",
+        "ola",
+        "buenas",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "hey",
+        "que onda",
+        "que tal"
+      ]
+    },
+    "ayuda_general": {
+      "respuesta": "¡Hola! 👋 Te explico cómo usar KAYRO STUDIO:\n\n1️⃣ Inicia sesión con tu cuenta de TikTok.\n2️⃣ Ve a \"Parchar\" y procesa tu video.\n3️⃣ Entra a \"Studio\" y toca \"Abrir TikTok Studio\".\n4️⃣ Sube tu video con tus ajustes.\n5️⃣ Cambia la visibilidad a \"Para todos\". 🚀",
+      "patrones": [
+        "ayuda",
+        "como funciona",
+        "tutorial",
+        "paso a paso",
+        "instrucciones",
+        "como se usa"
+      ]
+    },
+    "parchar": {
+      "respuesta": "🩹 En \"Parchar\" eliges tu video y lo procesas sin importar el peso o resolución.",
+      "patrones": [
+        "como parcho",
+        "parchar",
+        "que es parchar",
+        "parchar mi video"
+      ]
+    },
+    "studio": {
+      "respuesta": "🎬 Ve a \"Studio\" → \"Abrir TikTok Studio\" para publicar tu video con la mejor calidad.",
+      "patrones": [
+        "donde subo el video",
+        "studio",
+        "tiktok studio",
+        "como publicar"
+      ]
+    },
+    "fuera_tema": {
+      "respuesta": "",
+      "patrones": [
+        "receta",
+        "chiste",
+        "poema",
+        "cuento",
+        "historia"
+      ]
+    }
+  }
+}
